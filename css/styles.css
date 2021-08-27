@@ -145,7 +145,7 @@ body {
   max-width: 120px;
 }
 #phone a { 
-  max-width: 250px;
+  max-width: 200px;
 }
  
 }
@@ -162,7 +162,7 @@ body {
   max-width: 120px;
 }
 #phone a { 
-  max-width: 250px;
+  max-width: 200px;
 }
   navbar-brand{
     margin-left: 10px;
@@ -182,6 +182,12 @@ body {
   .navbar-brand h1 { /* Restaurant name */
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
+   #nav-list a {  
+  max-width: 120px;
+}
+#phone a { 
+  max-width: 200px;
+}
   /* End Home Page */
 
 }
