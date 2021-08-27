@@ -85,11 +85,14 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
 });
 
 // Load the menu categories view
-dc.loadMenuCategories = function () {
+dc.loadEducationPage = function () {
   showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(
-    allCategoriesUrl,
-    buildAndShowCategoriesHTML);
+$ajaxUtils.sendGetRequest(EducationHtml,
+  function (responseText) {
+    document.querySelector("#main-content")
+      .innerHTML = responseText;
+  },
+  false);
 };
 
 
