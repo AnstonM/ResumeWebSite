@@ -85,7 +85,6 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 10px;
-  max-width: 120px;
 }
 #nav-list a:hover , #nav-list a:focus{
   background: #500;
@@ -114,7 +113,6 @@ body {
   text-align: right;
   color: #ffffff;
   padding-bottom: 10px;
-  max-width: 250px;
 }
 #phone div { /* We Deliver */
   color: #ffffff;
