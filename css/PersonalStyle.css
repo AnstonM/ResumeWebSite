@@ -6,8 +6,6 @@
   margin-top: -25px;
 }
 
-
-
 .detail-name{
 	text-align: left;
 	line-height: 5vw;
@@ -58,5 +56,8 @@
 	.detail-answer{
 		font-size: 3vw;
 		line-height: 7vw;
+	}
+	#page-titlePersonal{
+		font-size: 2em;
 	}
 }
