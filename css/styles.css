@@ -143,6 +143,12 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  #nav-list a {  
+  max-width: 120px;
+}
+#phone a { 
+  max-width: 250px;
+}
  
 }
 
@@ -154,7 +160,12 @@ body {
     width: 150px;
     height: 150px;
   }
-
+  #nav-list a {  
+  max-width: 120px;
+}
+#phone a { 
+  max-width: 250px;
+}
   navbar-brand{
     margin-left: 10px;
   }
