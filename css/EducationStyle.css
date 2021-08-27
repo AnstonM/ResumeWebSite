@@ -1,0 +1,152 @@
+.container  {
+  align-items: center;
+}
+
+#edu-tiles{
+  text-align: center;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-top: -25px;
+}
+
+
+h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 800;
+  text-underline-position: under;
+  font-size: 1.6em;
+}
+
+
+@media (min-width: 992px)
+{
+  .item-tile{
+  background-color: #CCC;
+  border: 0.4vw solid #500; 
+  box-sizing: border-box;
+  margin: 2vw;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+.item-tileTop{
+  background-color: #CCC;
+  border: 0.4vw solid #500; 
+  box-sizing: border-box;
+  max-width: 45vw;
+  margin: 2vw;
+  color: #800;
+  padding-bottom: 20px;
+}
+
+#Secondary{
+  float: right;
+}
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  /* End Home Page */
+
+#edu-tiles{
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: -25px;
+}
+
+.item-tile{
+  background-color: #CCC;
+  margin: 1vw;
+  border: 2px solid #500; 
+  box-sizing: border-box;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+.item-tileTop{
+  background-color: #CCC;
+  margin: 1vw;
+  border: 2px solid #500; 
+  box-sizing: border-box;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+
+h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-position: under;
+  font-size: 1.6em;
+}
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #edu-tiles{
+  text-align: center;
+  font-size: 3.0vw;
+  margin-top: -25px;
+}
+
+.item-tile{
+  background-color: #CCC;
+  margin: 1vw;
+  border: 2px solid #500; 
+  box-sizing: border-box;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+.item-tileTop{
+  background-color: #CCC;
+  margin: 1vw;
+  border: 2px solid #500; 
+  box-sizing: border-box;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+
+h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-position: under;
+  font-size: 1.6em;
+} 
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ 
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
