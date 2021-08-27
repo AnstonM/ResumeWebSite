@@ -85,7 +85,7 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
 });
 
 // Load the menu categories view
-dc.loadEducationPage = function () {
+dc.loadEducationPage = function() {
   showLoading("#main-content");
 $ajaxUtils.sendGetRequest(EducationHtml,
   function (responseText) {
@@ -95,7 +95,7 @@ $ajaxUtils.sendGetRequest(EducationHtml,
   false);
 };
 
-
+/*
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
 dc.loadMenuItems = function (categoryShort) {
@@ -285,7 +285,7 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-
+*/
 
 global.$dc = dc;
 
