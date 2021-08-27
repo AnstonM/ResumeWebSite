@@ -97,11 +97,12 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: #500;
+  border-radius: 10px;
 }
 
 
 #nav-list a span {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #phone {
@@ -183,10 +184,15 @@ body {
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
    #nav-list a {  
-  max-width: 120px;
+  max-width: 90px;
+  font-size: 0.8em;
 }
 #phone a { 
-  max-width: 200px;
+  max-width: 150px;
+  font-size: 0.8em;
+}
+#phone div { /* We Deliver */
+  font-size: 0.8em;
 }
   /* End Home Page */
 
