@@ -85,28 +85,27 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
 });
 
 // Load the menu categories view
-dc.loadEducationPage = function() {
+dc.loadEducationPage = function () {
   showLoading("#main-content");
-$ajaxUtils.sendGetRequest(EducationHtml,
-  function (responseText) {
-    document.querySelector("#main-content")
-      .innerHTML = responseText;
-  },
-  false);
+  $ajaxUtils.sendGetRequest(
+    EducationHtml,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
 };
 
-/*
+
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
-dc.loadMenuItems = function (categoryShort) {
+/*dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     menuItemsUrl + categoryShort,
     buildAndShowMenuItemsHTML);
-};
+};*/
 
 
-// Builds HTML for the categories page based on the data
+/* Builds HTML for the categories page based on the data
 // from the server
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
@@ -129,7 +128,7 @@ function buildAndShowCategoriesHTML (categories) {
         false);
     },
     false);
-}
+}*/
 
 
 // Using categories data and snippets html
@@ -285,7 +284,7 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-*/
+
 
 global.$dc = dc;
 
