@@ -9,6 +9,10 @@
   margin-top: -25px;
 }
 
+#map-tile
+{
+  margin-top: 1vw;
+}
 
 h2{
   text-transform: uppercase;
