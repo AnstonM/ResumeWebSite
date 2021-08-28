@@ -1,6 +1,4 @@
-.container  {
-  align-items: center;
-}
+
 
 #cert-tiles{
   text-align: center;
@@ -66,7 +64,6 @@
   font-weight: 800;
   text-underline-position: under;
   font-size: 1.1em;
-  line-height: 7vw;
 }
 
 .cert-tile{
@@ -113,9 +110,7 @@
 
 @media(min-width: 991px)
 {
-  .course-name{
-    line-height: 5vw;
-  }
+  
 
   #certlink{
     font-size: 0.6em;
