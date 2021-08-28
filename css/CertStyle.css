@@ -6,8 +6,20 @@
   text-align: center;
   align-items: center;
   margin: auto;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin-top: -25px;
+}
+
+
+.backDiv{
+  padding-bottom: 10vw;
+  text-align: right;
+}
+
+.backSpan{
+  color: #fff;
+  background-color: #500;
+  border-radius: 10px;
 }
 
 #map-tile
@@ -37,7 +49,7 @@
   background-color: #fff;  
 }
 
-#page-title2, #page-title3{
+.pagetitle2{
   font-size: 2em;
   font-weight: bold;
   color: #fff;
@@ -48,18 +60,20 @@
   max-width: 60vw;
 }
 
-h2{
+.course-name{
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: 800;
   text-underline-position: under;
-  font-size: 1.6em;
+  font-size: 1.1em;
+  line-height: 7vw;
 }
 
 .cert-tile{
   background-color: #fdd; 
   box-sizing: border-box;
   border-radius: 10px;
+  font-size: 0.8em;
   margin: auto;
   margin-top: 1vw;
   color: #800;
@@ -80,5 +94,30 @@ h2{
 
   #certlink{
     font-size: 1.5em;
+  }
+
+
+.backDiv{
+  padding-bottom: 10vw;
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.backSpan{
+  color: #fff;
+  background-color: #500;
+}
+
+
+}
+
+@media(min-width: 991px)
+{
+  .course-name{
+    line-height: 5vw;
+  }
+
+  #certlink{
+    font-size: 0.6em;
   }
 }

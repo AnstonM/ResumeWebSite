@@ -24,6 +24,7 @@ body {
   border-bottom: 20px solid #550000;
 }
 
+
 #main-content, #main-content2{
   padding-top: 30px;
 }
@@ -189,7 +190,11 @@ body {
 #phone div { /* We Deliver */
   font-size: 0.8em;
 }
+
+.pagetitle{
+  font-size: 3em;
   /* End Home Page */
+}
 
 
 
@@ -228,6 +233,9 @@ body {
     height: 0px;
   }
 
+.pagetitle{
+  font-size: 3em;
+}
 
   /* End Header */
 
