@@ -27,6 +27,7 @@ var PersonalHtml = "snippets/Personal-snippet.html";
 var EducationHtml = "snippets/Education-snippet.html";
 var CertificateHtml = "snippets/Certificate-snippet.html";
 var CertificateHtml2 = "snippets/Certificate-snippet2.html";
+var WorkHtml = "snippets/Work-snippet.html";
 
 /*var allCategoriesUrl = "snippets/Certificate-snippet1.html";
   "https://davids-restaurant.herokuapp.com/categories.json";
@@ -133,6 +134,19 @@ dc.loadCert2Page = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     CertificateHtml2,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
+};
+
+dc.loadExpPage = function () {
+  switchButtonToActive();
+   classes = document.querySelector("#workbutton").className;
+      classes += " active";
+    document.querySelector("#workbutton").className = classes;
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    WorkHtml,function (responseText){
     document.querySelector("#main-content").innerHTML = responseText;  
     },
     false);
