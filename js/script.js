@@ -25,7 +25,8 @@ var dc = {};
 
 var PersonalHtml = "snippets/Personal-snippet.html";
 var EducationHtml = "snippets/Education-snippet.html";
-/*var allCategoriesUrl =
+var CertificateHtml1 = "snippets/Certificate-snippet.html";
+/*var allCategoriesUrl = "snippets/Certificate-snippet1.html";
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
@@ -94,6 +95,15 @@ dc.loadEducationPage = function () {
     false);
 };
 
+// Load the menu categories view
+dc.loadCertificatePage = function () {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    CertificateHtml,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
+};
 
 
 global.$dc = dc;

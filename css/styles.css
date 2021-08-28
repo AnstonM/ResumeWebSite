@@ -25,8 +25,8 @@ body {
   border-bottom: 20px solid #550000;
 }
 
-#main-content{
-  padding-top: 20px;
+#main-content, #main-content2{
+  padding-top: 30px;
 }
 
 #logo-img {
