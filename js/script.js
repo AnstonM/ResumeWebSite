@@ -25,7 +25,7 @@ var dc = {};
 
 var PersonalHtml = "snippets/Personal-snippet.html";
 var EducationHtml = "snippets/Education-snippet.html";
-var CertificateHtml1 = "snippets/Certificate-snippet.html";
+var CertificateHtml = "snippets/Certificate-snippet.html";
 /*var allCategoriesUrl = "snippets/Certificate-snippet1.html";
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
