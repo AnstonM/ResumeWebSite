@@ -79,6 +79,7 @@ body {
   vertical-align: middle;
 }
 
+
 #nav-list {
   margin-top: 15px;
 }
@@ -87,7 +88,7 @@ body {
   text-align: center;
   margin: 10px;
 }
-#nav-list a:hover , #nav-list a:focus{
+#nav-list a:hover , #nav-list a:focus , {
   background: #500;
   border-radius: 10px ;
 }

@@ -33,6 +33,11 @@
 	
 }
 
+.linkedin
+{
+  font-size: 0.8em;
+}
+
 .detail-all > div:nth-child(2n){
   margin-bottom: 3vw;
   color: #500;
