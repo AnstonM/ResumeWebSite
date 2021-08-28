@@ -40,9 +40,9 @@ var showLoading = function (selector) {
 
 // Remove the class 'active' from any button and switch to selected button
 var switchButtonToActive = function () {
-  var classes = document.querySelector("#navHomeButton").className;
+  var classes = document.querySelector("#HomeButton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
-  document.querySelector("#navHomeButton").className = classes;
+  document.querySelector("#HomeButton").className = classes;
 
   var classes1 = document.querySelector("#edubutton").className;
   classes1 = classes1.replace(new RegExp("active", "g"), "");
@@ -75,9 +75,9 @@ $ajaxUtils.sendGetRequest(ButtonHtml,
 
 dc.loadPersonalPage = function () {
   switchButtonToActive();
-   classes = document.querySelector("#navHomebutton").className;
+   classes = document.querySelector("#Homebutton").className;
       classes += " active";
-    document.querySelector("#navHomebutton").className = classes;
+    document.querySelector("#Homebutton").className = classes;
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     PersonalHtml,function (responseText){
