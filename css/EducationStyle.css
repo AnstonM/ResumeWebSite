@@ -3,7 +3,7 @@
 #edu-tiles{
   text-align: center;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin-top: -25px;
 }
 
@@ -48,13 +48,12 @@ h2{
 
 #edu-tiles{
   text-align: center;
-  font-size: 4vw;
   margin-top: -25px;
 }
 
 .item-tile{
   background-color: #fcc;
-  font size: 4em;
+  font size: 2em;
   margin: 2.5vw;
   border: 2px solid #500; 
   box-sizing: border-box;
@@ -77,13 +76,13 @@ h2{
 
   #edu-tiles{
   text-align: center;
-  font-size: 4vw;
   margin-top: -25px;
 }
 
 .item-tile{
   background-color: #fcc;
   margin: 2.5vw;
+  font-size: 2em;
   border: 2px solid #500; 
   box-sizing: border-box;
   color: #800;
