@@ -1,6 +1,4 @@
-.container  {
-  align-items: center;
-}
+
 
 #edu-tiles{
   text-align: center;
@@ -56,6 +54,7 @@ h2{
 
 .item-tile{
   background-color: #fcc;
+  font size: 4em;
   margin: 2.5vw;
   border: 2px solid #500; 
   box-sizing: border-box;
@@ -78,7 +77,7 @@ h2{
 
   #edu-tiles{
   text-align: center;
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin-top: -25px;
 }
 

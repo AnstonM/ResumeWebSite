@@ -2,9 +2,10 @@
   align-items: center;
 }
 
-#edu-tiles{
+#cert-tiles{
   text-align: center;
   align-items: center;
+  margin: auto;
   font-size: 1.5vw;
   margin-top: -25px;
 }
