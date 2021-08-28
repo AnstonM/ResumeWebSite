@@ -58,7 +58,7 @@ var insertProperty = function (string, propName, propValue) {
 }
 
 // Remove the class 'active' from home and switch to Menu button
-var switchMenuToActive = function () {
+var switchButtonToActive = function () {
   // Remove 'active' from home button
   var classes = document.querySelector("#navHomeButton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
@@ -96,35 +96,31 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
 
 // Load the menu categories view
 dc.loadEducationPage = function () {
+  switchButtonToActive();
+   classes = document.querySelector("#edubutton").className;
+      classes += " active";
+    document.querySelector("#edubutton").className = classes;
   showLoading("#main-content");
-  switchMenuToActive();
   $ajaxUtils.sendGetRequest(
     EducationHtml,function (responseText){
     document.querySelector("#main-content").innerHTML = responseText;  
     },
     false);
-  
-  classes = document.querySelector("#edubutton").className;
-  if (classes.indexOf("active") == -1) {
-    classes += " active";
-    document.querySelector("#edubutton").className = classes;
-  }
+
 };
 
 // Load the menu categories view
 dc.loadCertificatePage = function () {
+  switchButtonToActive();
+   classes = document.querySelector("#certbutton").className;
+      classes += " active";
+    document.querySelector("#certbutton").className = classes;
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     CertificateHtml,function (responseText){
     document.querySelector("#main-content").innerHTML = responseText;  
     },
     false);
-  switchMenuToActive();
-  classes = document.querySelector("#certbutton").className;
-  //if (classes.indexOf("active") == -1) {
-    classes += " active";
-    document.querySelector("#certbutton").className = classes;
-  //}
 };
 
 

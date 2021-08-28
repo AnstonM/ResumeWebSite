@@ -33,17 +33,17 @@
 	
 }
 
-.detail-all div:nth-child(2n){
+.detail-all > div:nth-child(2n){
   margin-bottom: 3vw;
   color: #500;
 }
 
-.detail-all div:nth-child(2n+1){
+.detail-all > div:nth-child(2n+1){
 	text-decoration: underline;
 	text-underline-position: under;
 }
 
-.detail-all div:nth-child(1){
+.detail-all > div:nth-child(1){
   margin-top: 3vw;
 }
 
