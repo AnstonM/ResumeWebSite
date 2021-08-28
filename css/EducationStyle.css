@@ -24,7 +24,7 @@ h2{
 @media (min-width: 992px)
 {
   .item-tile{
-  background-color: #fcc;
+  background-color: #fdd;
   border: 0.4vw solid #500; 
   box-sizing: border-box;
   margin: 2.5vw;
@@ -52,7 +52,7 @@ h2{
 }
 
 .item-tile{
-  background-color: #fcc;
+  background-color: #fdd;
   font size: 2em;
   margin: 2.5vw;
   border: 2px solid #500; 
@@ -69,6 +69,7 @@ h2{
   font-weight: 700;
   text-underline-position: under;
   font-size: 1.6em;
+  line-height: 1.3em;
 }
 }
 /********** Extra small devices only **********/
@@ -80,7 +81,7 @@ h2{
 }
 
 .item-tile{
-  background-color: #fcc;
+  background-color: #fdd;
   margin: 2.5vw;
   font-size: 2em;
   border: 2px solid #500; 
@@ -96,7 +97,8 @@ h2{
   text-decoration: underline;
   font-weight: 700;
   text-underline-position: under;
-  font-size: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.3em;
 } 
 }
 
