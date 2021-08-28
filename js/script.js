@@ -21,6 +21,7 @@ var EducationHtml = "snippets/Education-snippet.html";
 var CertificateHtml = "snippets/Certificate-snippet.html";
 var CertificateHtml2 = "snippets/Certificate-snippet2.html";
 var WorkHtml = "snippets/Work-snippet.html";
+var ButtonHtml = "snippets/Button-snippet.html";
 
 
 
@@ -64,7 +65,7 @@ var switchButtonToActive = function () {
 document.addEventListener("DOMContentLoaded", function (event) {
 // On first load, show personal details view
 showLoading("#main-content");
-$ajaxUtils.sendGetRequest(PersonalHtml,
+$ajaxUtils.sendGetRequest(ButtonHtml,
   function (responseText) {
     document.querySelector("#main-content")
       .innerHTML = responseText;
@@ -72,6 +73,19 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
   false);
 });
 
+dc.loadPersonalPage = function () {
+  switchButtonToActive();
+   classes = document.querySelector("#navHomebutton").className;
+      classes += " active";
+    document.querySelector("#navHomebutton").className = classes;
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    PersonalHtml,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
+
+}; 
 
 dc.loadEducationPage = function () {
   switchButtonToActive();

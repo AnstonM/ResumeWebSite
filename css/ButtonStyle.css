@@ -1,0 +1,38 @@
+
+.CustomButton{
+  margin: 20vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border-radius: 2vw;
+  text-align: center;
+  background-color: #500; 
+  padding: 10px;
+  max-width: 60vw;
+}
+
+.CustomButton span{
+  color: #ffffff;
+}
+
+#home-tiles a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#home-tiles
+{
+  margin-top: 20px;
+  font-size: 2vw;
+}
+
+@media(max-width: 991px)
+  {
+#home-tiles
+{
+  
+  margin-top: 2vw;
+  font-size: 3.5vw;
+}
+.CustomButton{
+  margin-top: 20px;
+  }}
