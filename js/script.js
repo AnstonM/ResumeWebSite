@@ -15,7 +15,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // Refer to issue #28 in the repo.
   // Solution: force focus on the element that the click event fired on
   $("#navbarToggle").click(function (event) {
-    $(event.target).focus();
+   $(event.target).focus();
   });
 });
 
@@ -64,12 +64,21 @@ var switchMenuToActive = function () {
   classes = classes.replace(new RegExp("active", "g"), "");
   document.querySelector("#navHomeButton").className = classes;
 
-  // Add 'active' to menu button if not already there
-  classes = document.querySelector("#navMenuButton").className;
-  if (classes.indexOf("active") == -1) {
-    classes += " active";
-    document.querySelector("#navMenuButton").className = classes;
-  }
+  var classes1 = document.querySelector("#edubutton").className;
+  classes1 = classes1.replace(new RegExp("active", "g"), "");
+  document.querySelector("#edubutton").className = classes1;
+
+  var classes2 = document.querySelector("#workbutton").className;
+  classes2 = classes2.replace(new RegExp("active", "g"), "");
+  document.querySelector("#workbutton").className = classes2;
+
+  var classes3 = document.querySelector("#certbutton").className;
+  classes3 = classes3.replace(new RegExp("active", "g"), "");
+  document.querySelector("#certbutton").className = classes3;
+
+  var classes4 = document.querySelector("#skillbutton").className;
+  classes4 = classes4.replace(new RegExp("active", "g"), "");
+  document.querySelector("#skillbutton").className = classes4;
 };
 
 // On page load (before images or CSS)
@@ -88,11 +97,18 @@ $ajaxUtils.sendGetRequest(PersonalHtml,
 // Load the menu categories view
 dc.loadEducationPage = function () {
   showLoading("#main-content");
+  switchMenuToActive();
   $ajaxUtils.sendGetRequest(
     EducationHtml,function (responseText){
     document.querySelector("#main-content").innerHTML = responseText;  
     },
     false);
+  
+  classes = document.querySelector("#edubutton").className;
+  if (classes.indexOf("active") == -1) {
+    classes += " active";
+    document.querySelector("#edubutton").className = classes;
+  }
 };
 
 // Load the menu categories view
@@ -103,6 +119,12 @@ dc.loadCertificatePage = function () {
     document.querySelector("#main-content").innerHTML = responseText;  
     },
     false);
+  switchMenuToActive();
+  classes = document.querySelector("#certbutton").className;
+  //if (classes.indexOf("active") == -1) {
+    classes += " active";
+    document.querySelector("#certbutton").className = classes;
+  //}
 };
 
 
