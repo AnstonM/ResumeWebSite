@@ -1,0 +1,89 @@
+#skill-tiles{
+  text-align: center;
+  align-items: center;
+  font-size: 2vw;
+  margin-top: -25px;
+}
+
+.skill-title h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 800;
+  text-underline-position: under;
+  font-size: 1.6em;
+}
+
+
+@media (min-width: 992px)
+{
+  .skill-tile{
+  background-color: #fdd;
+  border: 0.4vw solid #500; 
+  box-sizing: border-box;
+  color: #800;  
+  margin-top: 40px;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#skill-tiles{
+  text-align: center;
+  margin-top: -25px;
+}
+
+.skill-tile{
+  background-color: #fdd;
+  font size: 2em;
+  border: 2px solid #500; 
+  box-sizing: border-box;  
+  margin-top: 10px;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+
+.skill-title h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-position: under;
+  font-size: 1.6em;
+  line-height: 1.3em;
+}
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #skill-tiles{
+  text-align: center;
+  margin-top: -25px;
+}
+
+.skill-tile{
+  background-color: #fdd;
+  font-size: 2em;
+  border: 2px solid #500; 
+  box-sizing: border-box;
+  color: #800;
+  max-width: 95vw;
+  padding-bottom: 20px;
+}
+
+
+.skill-title h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-position: under;
+  font-size: 1.5em;
+  line-height: 1.3em;
+} 
+}
