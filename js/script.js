@@ -44,9 +44,9 @@ var switchButtonToActive = function () {
   classes = classes.replace(new RegExp("active", "g"), "");
   document.querySelector("#navHomeButton").className = classes;
 
-  var classes = document.querySelector("#PersonalButton").className;
+  var classes = document.querySelector("#Personalbutton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
-  document.querySelector("#PersonalButton").className = classes;
+  document.querySelector("#Personalbutton").className = classes;
 
   var classes1 = document.querySelector("#edubutton").className;
   classes1 = classes1.replace(new RegExp("active", "g"), "");
@@ -77,19 +77,7 @@ $ajaxUtils.sendGetRequest(ButtonHtml,
   false);
 });
 
-dc.loadPersonalPage = function () {
-  switchButtonToActive();
-   classes = document.querySelector("#Personalbutton").className;
-      classes += " active";
-    document.querySelector("#Personalbutton").className = classes;
-  showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(
-    PersonalHtml,function (responseText){
-    document.querySelector("#main-content").innerHTML = responseText;  
-    },
-    false);
 
-}; 
 
 dc.loadEducationPage = function () {
   switchButtonToActive();
@@ -104,6 +92,20 @@ dc.loadEducationPage = function () {
     false);
 
 };
+
+dc.loadPersPage = function () {
+  switchButtonToActive();
+   var classes1 = document.querySelector("#Personalbutton").className;
+    classes1 += " active";
+    document.querySelector("#Personalbutton").className = classes1;
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    PersonalHtml,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
+
+}; 
 
 
 dc.loadCertificatePage = function () {
