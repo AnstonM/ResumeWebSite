@@ -22,6 +22,7 @@ var CertificateHtml = "snippets/Certificate-snippet.html";
 var CertificateHtml2 = "snippets/Certificate-snippet2.html";
 var WorkHtml = "snippets/Work-snippet.html";
 var ButtonHtml = "snippets/Button-snippet.html";
+var SkillHtml = "snippets/Skill-snippet.html";
 
 
 
@@ -147,6 +148,18 @@ dc.loadExpPage = function () {
     false);
 };
 
+dc.loadSkillsPage = function () {
+  switchButtonToActive();
+   classes = document.querySelector("#skillbutton").className;
+      classes += " active";
+    document.querySelector("#skillbutton").className = classes;
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    SkillHtml,function (responseText){
+    document.querySelector("#main-content").innerHTML = responseText;  
+    },
+    false);
+};
 
 global.$dc = dc;
 
