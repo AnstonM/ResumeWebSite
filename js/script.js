@@ -40,6 +40,10 @@ var showLoading = function (selector) {
 
 // Remove the class 'active' from any button and switch to selected button
 var switchButtonToActive = function () {
+  var classes = document.querySelector("#navHomeButton").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector("#navHomeButton").className = classes;
+
   var classes = document.querySelector("#PersonalButton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
   document.querySelector("#PersonalButton").className = classes;
