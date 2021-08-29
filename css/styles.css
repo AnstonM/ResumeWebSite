@@ -95,6 +95,9 @@ body {
   border-radius: 10px ;
 }
 
+.loading{
+  margin-top: 15%;
+}
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
