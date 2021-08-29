@@ -37,8 +37,10 @@
   font-size: 4vw;
 }
 .CustomButton{
-  margin-top: 20px;
   margin: 13%;
+  margin-top: 2vw;  
+  margin-bottom: 1vw;
+  border-radius: 2vw;
   max-width: 74%;  
   margin-bottom: 1vw;
   border-radius: 2vw;

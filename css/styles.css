@@ -191,7 +191,7 @@ body {
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
    #nav-list a {  
-  max-width: 150px;
+  max-width: 140px;
   font-size: 1em;
   }
 
