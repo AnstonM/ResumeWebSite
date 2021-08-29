@@ -5,7 +5,7 @@
   margin-bottom: 1vw;
   border-radius: 2vw;
   text-align: center;
-  background-color: #500; 
+  background-color: #800; 
   padding: 10px;
   max-width: 60%;
 }
@@ -34,7 +34,7 @@
   align-items: center;
   text-align: center;
   margin-top: 2vw;
-  font-size: 3.5vw;
+  font-size: 2em;
 }
 .CustomButton{
   margin-top: 20px;
