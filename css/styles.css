@@ -27,7 +27,6 @@ body {
 
 #main-content, #main-content2{
   padding-top: 30px;
-
 }
 
 #logo-img {
@@ -65,9 +64,11 @@ body {
   text-decoration: underline;
   text-underline-position: under;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
 .navbar-brand p { /* Kosher cert */
   color: #fff;
   text-transform: uppercase;
@@ -80,6 +81,7 @@ body {
 }
 
 
+
 #nav-list {
   margin-top: 15px;
 }
@@ -88,7 +90,7 @@ body {
   text-align: center;
   margin: 10px;
 }
-#nav-list a:hover , #nav-list a:focus , {
+#nav-list a:hover , #nav-list a:focus {
   background: #500;
   border-radius: 10px ;
 }
