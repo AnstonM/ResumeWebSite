@@ -2,7 +2,8 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #Fee;
-  font-family: 'Oxygen', sans-serif;
+  
+  font-family: 'Lora', sans-serif;
 }
 
 .pagetitle, #page-titlePersonal{
@@ -54,15 +55,13 @@ body {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #ffffff;
-  font-size: 2.5em;
+  font-size: 2.8em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  text-decoration: underline;
-  text-underline-position: under;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -150,7 +149,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #nav-list a {  
-  max-width: 120px;
+  max-width: 180px;
 }
 #phone a { 
   max-width: 200px;
@@ -167,13 +166,18 @@ body {
     height: 150px;
   }
   #nav-list a {  
-  max-width: 120px;
+  max-width: 140px;
 }
 #phone a { 
-  max-width: 200px;
+  max-width: 165px;
+  font-size: 0.9em;
 }
   navbar-brand{
     margin-left: 10px;
+  }
+
+  #phone div{
+    font-size: 0.9em;
   }
   /* End Header */
 
@@ -187,16 +191,9 @@ body {
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
    #nav-list a {  
-  max-width: 90px;
-  font-size: 0.8em;
-}
-#phone a { 
   max-width: 150px;
-  font-size: 0.8em;
-}
-#phone div { /* We Deliver */
-  font-size: 0.8em;
-}
+  font-size: 1em;
+  }
 
 .pagetitle{
   font-size: 4em;
@@ -268,39 +265,6 @@ body {
   }
 }
 
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-
-   #logo-img {
-    background: url('../images/myphoto.jpg') no-repeat;
-    width: 0px;
-    height: 0px;
-  }
-
-
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
-}
 
 
 
