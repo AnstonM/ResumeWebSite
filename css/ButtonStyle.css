@@ -38,4 +38,8 @@
 }
 .CustomButton{
   margin-top: 20px;
+  margin: 13%;
+  max-width: 74%;  
+  margin-bottom: 1vw;
+  border-radius: 2vw;
   }}
