@@ -1,3 +1,11 @@
+.button-body
+{
+  background: url('../images/ButtonBack.jpg') no-repeat;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  margin-top: -20px ;
+}
 
 .CustomButton{
   margin: 20%;
@@ -44,4 +52,15 @@
   max-width: 74%;  
   margin-bottom: 1vw;
   border-radius: 2vw;
-  }}
+  }
+.button-body{
+  background: url('../images/ButtonBack1.jpg') no-repeat;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  margin-top: -20px ;
+  padding-bottom: 20%;
+}
+}
+
+

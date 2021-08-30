@@ -6,6 +6,10 @@ body {
   font-family: 'Lora', sans-serif;
 }
 
+title{
+  color: #800;
+}
+
 .pagetitle, #page-titlePersonal{
   font-size: 1.8em;
   font-weight: bold;
@@ -80,15 +84,16 @@ body {
 }
 
 
-
 #nav-list {
   margin-top: 15px;
 }
+
 #nav-list a {
   color: #ffffff;
   text-align: center;
   margin: 10px;
 }
+
 #nav-list a:hover , #nav-list a:focus {
   background: #500;
   border-radius: 10px ;
@@ -121,6 +126,7 @@ body {
   color: #ffffff;
   padding-bottom: 10px;
 }
+
 #phone div { /* We Deliver */
   color: #ffffff;
   text-align: right;
@@ -130,6 +136,7 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #ffffff;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
@@ -147,71 +154,73 @@ body {
 
 
 /********** Large devices only **********/
+
 @media (min-width: 1200px) {
-  #nav-list a {  
-  max-width: 160px;
-  height: 100px;
-  font-size: 1.3em;
+      #nav-list a {  
+      max-width: 160px;
+      height: 100px;
+      font-size: 1.3em;
+    }
+    #phone a { 
+      max-width: 230px;
+      height: 50px;
+      font-size: 1.1em;
+    } 
 }
-#phone a { 
-  max-width: 230px;
-  height: 50px;
-  font-size: 1.1em;
-}
- 
-}
+
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/myphoto.jpg') no-repeat;
-    width: 150px;
-    height: 150px;
-  }
-  #nav-list a {  
-  max-width: 130px;
-  height: 90px;
-}
-#phone a { 
-  max-width: 165px;
-  font-size: 0.9em;
-  height:  40px;
-}
-  navbar-brand{
-    margin-left: 10px;
-  }
+      /* Header */
+      #logo-img {
+        background: url('../images/myphoto.jpg') no-repeat;
+        width: 150px;
+        height: 150px;
+      }
+      #nav-list a {  
+      max-width: 130px;
+      height: 90px;
+    }
+    #phone a { 
+      max-width: 165px;
+      font-size: 0.9em;
+      height:  40px;
+    }
+      navbar-brand{
+        margin-left: 10px;
+      }
 
-  #phone div{
-    font-size: 0.9em;
-  }
-  /* End Header */
-
-  
+      #phone div{
+        font-size: 0.9em;
+      }
+      /* End Header */      
 }
+
+
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   
-  .navbar-brand h1 { /* Restaurant name */
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-   #nav-list a {  
-  max-width: 140px;
-  height: 90px;
-  font-size: 1em;
-  margin-top: 0px;
-  }
+      .navbar-brand h1 { /* Restaurant name */
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+      }
+       #nav-list a {  
+      max-width: 140px;
+      height: 90px;
+      font-size: 1em;
+      margin-top: 0px;
+      }
 
-.pagetitle{
-  font-size: 4em;
-  /* End Home Page */
+    .pagetitle{
+      font-size: 4em;
+      /* End Home Page */
+    }
 }
 
 
 
 
-}
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
@@ -245,32 +254,11 @@ body {
     height: 0px;
   }
 
-.pagetitle{
-  font-size: 4em;
-}
-
-  /* End Header */
-
-
-  /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
+  .pagetitle{
+    font-size: 4em;
   }
 
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
+  /* End Header */  
 }
 
 

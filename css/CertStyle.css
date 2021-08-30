@@ -1,12 +1,9 @@
-
-
 #cert-tiles{
   text-align: center;
   align-items: center;
   font-size: 2vw;
   margin-top: -25px;
 }
-
 
 .backDiv{
   padding-bottom: 10vw;
@@ -18,7 +15,6 @@
   background-color: #500;
   border-radius: 10px;
 }
-
 
 .courseimg{
   width:  150px;
