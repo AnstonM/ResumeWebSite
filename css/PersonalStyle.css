@@ -3,7 +3,30 @@
   text-align: center;
   align-items: center;
   font-size: 1.5vw;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #fdd;
+  max-width: 98%;
+  margin-left: 1%;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.PersonalTitle{
+	 text-align: center;
+  align-items: center;
+  font-size: 1.5vw;
   margin-top: -25px;
+  margin-bottom: 5vw;
+}
+
+.translusent{
+
+  background: #fdd;
+  border-radius: 10px;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
 }
 
 .detail-name{
