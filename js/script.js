@@ -45,10 +45,6 @@ $(function () {
       classes = classes.replace(new RegExp("active", "g"), "");
       document.querySelector("#navHomeButton").className = classes;
 
-      var classes = document.querySelector("#main-content").className;
-      classes = classes.replace(new RegExp("button-body", "g"), "");
-      document.querySelector("#main-content").className = classes;
-
       var classes = document.querySelector("#Personalbutton").className;
       classes = classes.replace(new RegExp("active", "g"), "");
       document.querySelector("#Personalbutton").className = classes;
