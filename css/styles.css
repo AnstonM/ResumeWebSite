@@ -42,13 +42,14 @@ title{
   }
 
 #personal-img{
-  background: url('../images/myphoto.jpg') no-repeat;
-  width:  150px;
-  height: 150px;
+  background: url('../images/myphoto2.jpg') no-repeat;
+  width:  230px;
+  height: 230px;
   margin-left: auto;
   margin-right: auto;
-  border: 20px solid #800;
-  margin-top: 20px;
+  border: 10px solid #800;
+  border-radius: 20px;
+  margin-top: 0px;
 }
 
 .navbar-brand {

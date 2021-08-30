@@ -9,6 +9,7 @@
   max-width: 98%;
   margin-left: 1%;
   opacity: 0.9;
+  border: 0.4vw solid #500;
   border-radius: 20px;
 }
 
@@ -88,6 +89,10 @@
 	#page-titlePersonal{
 		font-size: 2em;
 	}
+	#personal-tiles{
+  border: 0.5vw solid #500;
+  border-radius: 20px;
+}
 }
 
 @media(max-width: 767px)
@@ -95,4 +100,8 @@
 	#page-titlePersonal{
 		font-size: 4em;
 	}
+	#personal-tiles{
+  border: 0.6vw solid #500;
+  border-radius: 20px;
+}
 }
