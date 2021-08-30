@@ -75,7 +75,7 @@ title{
 .navbar-brand p { /* Kosher cert */
   color: #fff;
   text-transform: uppercase;
-  font-size: .8em;
+  font-size: .9em;
   margin-top: 15px;
 
 }
@@ -175,8 +175,15 @@ title{
     #phone a { 
       max-width: 230px;
       height: 50px;
-      font-size: 1.1em;
+      font-size: 1em;
     } 
+
+    #phone div { /* We Deliver */
+  color: #ffffff;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 0.8em;
+}
 }
 
 
@@ -203,7 +210,7 @@ title{
       height: 90px;
     }
     #phone a { 
-      max-width: 165px;
+      max-width: 230px;
       font-size: 0.9em;
       height:  40px;
     }
