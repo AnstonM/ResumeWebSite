@@ -15,7 +15,7 @@ h2{
   text-decoration: underline;
   font-weight: 800;
   text-underline-position: under;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 
@@ -23,12 +23,18 @@ h2{
 {
   .item-tile{
   background-color: #fdd;
-  border: 0.4vw solid #500; 
+  border: 0.4vw solid #500;
+  border-radius: 20px; 
   box-sizing: border-box;
-  margin: 2.5vw;
+  margin: 5%;
+  margin-top: 3%;
+  margin-bottom: 10pxpx;
   color: #800;
-  max-width: 95vw;
+  max-width: 90%;
+  font-size: 0.7em;
+  font-weight: 500;
   padding-bottom: 20px;
+  opacity: 0.9;
 }
 
 
@@ -50,13 +56,15 @@ h2{
 
   .item-tile{
     background-color: #fdd;
-    font size: 2em;
-    margin: 2.5vw;
-    border: 2px solid #500; 
+    font size: 2.2em;
+    margin: 2.5%;
+    border: 0.4vw solid #500; 
+    border-radius: 20px;
     box-sizing: border-box;
     color: #800;
-    max-width: 95vw;
+    max-width: 95%;
     padding-bottom: 20px;
+    opacity: 0.9;
   }
 
 
@@ -65,7 +73,7 @@ h2{
     text-decoration: underline;
     font-weight: 700;
     text-underline-position: under;
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 1.3em;
   }
 }
@@ -82,13 +90,15 @@ h2{
 
   .item-tile{
     background-color: #fdd;
-    margin: 2.5vw;
-    font-size: 2em;
-    border: 2px solid #500; 
+    margin: 2.5%;
+    font-size: 1.8em;
+    border: 0.5vw solid #500; 
+    border-radius: 20px;
     box-sizing: border-box;
     color: #800;
-    max-width: 95vw;
+    max-width: 95%;
     padding-bottom: 20px;
+    opacity: 0.9;
     }
 
 
@@ -97,7 +107,7 @@ h2{
     text-decoration: underline;
     font-weight: 700;
     text-underline-position: under;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.3em;
     } 
 }
