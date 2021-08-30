@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #Fee;  
+  background-color: url('../images/ButtonBack.jpg') repeat-y;  
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -183,6 +183,15 @@ title{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
       /* Header */
+      
+      body {
+  font-size: 16px;
+  color: #fff;
+  background-color: url('../images/ButtonBack1.jpg') repeat-y;  
+  font-family: 'Oxygen', sans-serif;
+}
+
+
       #logo-img {
         background: url('../images/myphoto.jpg') no-repeat;
         width: 150px;
@@ -234,6 +243,14 @@ title{
       margin-top: 0px;
       }
 
+      body {
+  font-size: 16px;
+  color: #fff;
+  background-color: url('../images/ButtonBack1.jpg') repeat-y;  
+  font-family: 'Oxygen', sans-serif;
+}
+
+
     .pagetitle{
       font-size: 4em;
       /* End Home Page */
@@ -269,6 +286,14 @@ title{
     font-size: 1em;
     margin-right: 5px;
   }
+
+  body {
+  font-size: 16px;
+  color: #fff;
+  background-color: url('../images/ButtonBack3.jpg') repeat-y;  
+  font-family: 'Oxygen', sans-serif;
+}
+
 
   #logo-img {
     background: url('../images/myphoto.jpg') no-repeat;
