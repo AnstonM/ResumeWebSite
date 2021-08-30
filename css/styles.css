@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: url('../images/ButtonBack.jpg') repeat-y;  
+  background: url('../images/ButtonBack.jpg') repeat-y;  
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -187,7 +187,7 @@ title{
       body {
   font-size: 16px;
   color: #fff;
-  background-color: url('../images/ButtonBack1.jpg') repeat-y;  
+  background: url('../images/ButtonBack1.jpg') repeat-y;  
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -246,7 +246,7 @@ title{
       body {
   font-size: 16px;
   color: #fff;
-  background-color: url('../images/ButtonBack1.jpg') repeat-y;  
+  background: url('../images/ButtonBack1.jpg') repeat-y;  
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -290,7 +290,7 @@ title{
   body {
   font-size: 16px;
   color: #fff;
-  background-color: url('../images/ButtonBack3.jpg') repeat-y;  
+  background: url('../images/ButtonBack3.jpg') repeat-y;  
   font-family: 'Oxygen', sans-serif;
 }
 
