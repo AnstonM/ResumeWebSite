@@ -6410,12 +6410,13 @@ button.close {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  border: 2px solid #800;
   border-radius: 10px;
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
+  margin-top: 1px;
+  width: 14px;
+  height: 14px;
   margin: 0;
   background-color: #fff;
 }

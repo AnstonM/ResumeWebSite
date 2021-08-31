@@ -5,6 +5,20 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+.carousel-indicators .li
+{
+  border-color: #800;
+}
+
+.carousel-indicators .active
+{
+  background-color: #800;
+}
+
+.carousel-control{
+  color: #500;
+}
+
 title{
   color: #800;
 }
