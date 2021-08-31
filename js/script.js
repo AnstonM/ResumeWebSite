@@ -12,10 +12,6 @@ $(function () {
   });
 });
 
-$('.carousel').bcSwipe({ threshold: 50 });
-
-
-
 (function (global) {
 
     var dc = {};
