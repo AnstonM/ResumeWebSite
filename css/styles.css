@@ -5,6 +5,9 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+
+
+
 .carousel-indicators .li
 {
   border-color: #800;
@@ -186,6 +189,20 @@ title{
   margin-bottom: 0;
   line-height: .75;
 }
+
+.carousel-indicators{
+  position: unset;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: 20%;
+  margin-top: -10px;
+  text-align: center;
+  list-style: none;
+}
+
     #phone a { 
       max-width: 230px;
       height: 50px;
@@ -240,6 +257,20 @@ title{
   margin-bottom: 0;
   line-height: .75;
 }
+
+.carousel-indicators{
+  position: unset;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: 20%;
+  margin-top: -10px;
+  text-align: center;
+  list-style: none;
+}
+
       navbar-brand{
         margin-left: 10px;
       }
@@ -277,6 +308,19 @@ title{
       font-size: 4em;
       /* End Home Page */
     }
+
+    .carousel-indicators{
+  position: unset;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: 20%;
+  margin-top: -10px;
+  text-align: center;
+  list-style: none;
+}
 }
 
 
