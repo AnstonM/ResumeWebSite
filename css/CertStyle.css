@@ -6,8 +6,9 @@
 }
 
 .backDiv{
-  padding-bottom: 10vw;
+  padding-bottom: 2vw;
   text-align: right;
+  float: right;
 }
 
 .backSpan{
@@ -92,7 +93,7 @@
 .backDiv{
   padding-bottom: 10vw;
   text-align: right;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .backSpan{
