@@ -20,6 +20,7 @@ $(function () {
     var EducationHtml = "snippets/Education-snippet.html";
     var CertificateHtml = "snippets/Certificate-snippet.html";
     var CertificateHtml2 = "snippets/Certificate-snippet2.html";
+    var CertificateHtml3 = "snippets/Certificate-snippet-IBM-AI.html";
     var WorkHtml = "snippets/Work-snippet.html";
     var ButtonHtml = "snippets/Button-snippet.html";
     var SkillHtml = "snippets/Skill-snippet.html";
@@ -135,6 +136,20 @@ $(function () {
       showLoading("#main-content");
       $ajaxUtils.sendGetRequest(
         CertificateHtml2,function (responseText){
+        document.querySelector("#main-content").innerHTML = responseText;  
+        },
+        false);
+    };
+
+    //IBM Applied AI
+    dc.loadCert3Page = function () {
+      switchButtonToActive();
+       classes = document.querySelector("#certbutton").className;
+          classes += " active";
+        document.querySelector("#certbutton").className = classes;
+      showLoading("#main-content");
+      $ajaxUtils.sendGetRequest(
+        CertificateHtml3,function (responseText){
         document.querySelector("#main-content").innerHTML = responseText;  
         },
         false);

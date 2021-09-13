@@ -39,6 +39,11 @@
   background-color: #fff;  
 }
 
+#course4{
+  background: url('../images/course4.png') no-repeat;
+  background-color: #fff;  
+}
+
 .pagetitle2{
   font-size: 1.5em;
   font-weight: bold;
