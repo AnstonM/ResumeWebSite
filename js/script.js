@@ -21,6 +21,7 @@ $(function () {
     var CertificateHtml = "snippets/Certificate-snippet.html";
     var CertificateHtml2 = "snippets/Certificate-snippet2.html";
     var CertificateHtml3 = "snippets/Certificate-snippet-IBM-AI.html";
+    var CertificateHtml4 = "snippets/Certificate-snippet-AWS.html";
     var WorkHtml = "snippets/Work-snippet.html";
     var ButtonHtml = "snippets/Button-snippet.html";
     var SkillHtml = "snippets/Skill-snippet.html";
@@ -154,6 +155,22 @@ $(function () {
         },
         false);
     };
+
+
+    //IBM Applied AI
+    dc.loadCert4Page = function () {
+      switchButtonToActive();
+       classes = document.querySelector("#certbutton").className;
+          classes += " active";
+        document.querySelector("#certbutton").className = classes;
+      showLoading("#main-content");
+      $ajaxUtils.sendGetRequest(
+        CertificateHtml4,function (responseText){
+        document.querySelector("#main-content").innerHTML = responseText;  
+        },
+        false);
+    };
+
 
     //Work Experience snippet
     dc.loadExpPage = function () {
